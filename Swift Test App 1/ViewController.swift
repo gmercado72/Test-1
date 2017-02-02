@@ -19,11 +19,8 @@ class ViewController: UIViewController {
         thelabel.text = "Am I Here"
         self.view.backgroundColor = UIColor.white
         print("button tapped")
-            
-          
             tapCount1 = tapCount1 + 1
-
-            if tapCount1 >= 5 { thelabel.text = "YESSSSS?"}
+if tapCount1 >= 5 { thelabel.text = "YESSSSS?"}
     
 
             
